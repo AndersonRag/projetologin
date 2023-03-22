@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">projetologin</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">não tem uma conta? cadastre-se</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="Menuapp">Qual opção deseja escolher?</string>
+</resources>
