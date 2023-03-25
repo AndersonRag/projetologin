@@ -63,6 +63,7 @@
        />
 
    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/bt_cadastar"
        style="@style/Button"
        android:text="Cadastrar"
        android:layout_marginTop="30dp"
