@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_margin="80px">
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/checklist"
@@ -11,42 +11,58 @@
         android:layout_height="wrap_content"
         android:paddingTop="60px"
         android:textSize="80px"
-        android:text="CheckList"
+        android:text="𝐂𝐇𝐄𝐂𝐊𝐋𝐈𝐒𝐓"
+        android:textColor="@color/white"
         android:textAlignment="center" />
     <CheckBox
         android:id="@+id/tarefLimpar"
         android:text="Limpar Casa"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/tarefComida"
         android:text="Fazer Comida"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/tarefLicao"
         android:text="Fazer Lição"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/tarefEstudar"
         android:text="Estudar para Prova"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/tarefCachorro"
         android:text="Levar o Cachorro para Passear"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/tarefLixo"
         android:text="Colocar o Lixo na Rua"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/Button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Finalizado"
         android:id="@+id/btfinalizadocheck" />
+
+    <ImageView
+        android:id="@+id/fundo3"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fundo3" />
 
 </LinearLayout>

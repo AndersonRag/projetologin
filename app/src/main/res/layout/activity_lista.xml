@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_margin="80px">
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/lista"
@@ -11,42 +11,58 @@
         android:layout_height="wrap_content"
         android:paddingTop="60px"
         android:textSize="80px"
-        android:text="Lista de Compra"
+        android:textColor="@color/white"
+        android:text="𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐂𝐎𝐌𝐏𝐑𝐀𝐒"
         android:textAlignment="center" />
     <CheckBox
         android:id="@+id/compArroz"
         android:text="Arroz"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/compFeijao"
         android:text="Feijão"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/compOleo"
         android:text="Óleo"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/compManteiga"
         android:text="Manteiga"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/compLeite"
         android:text="Leite"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <CheckBox
         android:id="@+id/compCarne"
         android:text="Carne"
+        android:textColor="@color/white"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/Button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Finalizado"
         android:id="@+id/btfinalizadolista" />
+
+    <ImageView
+        android:id="@+id/fundo1"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fundo1" />
 
 </LinearLayout>

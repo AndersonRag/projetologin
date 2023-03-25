@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Cus"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="80px">
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
 
     <TextView
         android:id="@+id/menu"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Menu"
-        android:textAlignment="center" />
+        android:layout_marginTop="50dp"
+        android:text="𝐌𝐄𝐍𝐔"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btcheck"
+        style="@style/Button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="CheckList" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btlista"
+        style="@style/Button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Lista de Compra" />
+
+    <ImageView
+        android:id="@+id/imagem_menu"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logobranco" />
 
 </LinearLayout>
