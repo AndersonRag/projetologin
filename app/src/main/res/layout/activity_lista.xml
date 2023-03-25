@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="80px">
+
+    <TextView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60px"
+        android:textSize="80px"
+        android:text="Lista de Compra"
+        android:textAlignment="center" />
+    <CheckBox
+        android:id="@+id/compArroz"
+        android:text="Arroz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/compFeijao"
+        android:text="Feijão"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/compOleo"
+        android:text="Óleo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/compManteiga"
+        android:text="Manteiga"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/compLeite"
+        android:text="Leite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/compCarne"
+        android:text="Carne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizado"
+        android:id="@+id/btfinalizadolista" />
+
+</LinearLayout>

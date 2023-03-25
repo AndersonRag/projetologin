@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Projetologin"
         tools:targetApi="31">
         <activity
+            android:name=".lista"
+            android:exported="false" />
+        <activity
+            android:name=".checklist"
+            android:exported="false" />
+        <activity
             android:name=".TelaPrincipal"
             android:exported="false" />
         <activity
